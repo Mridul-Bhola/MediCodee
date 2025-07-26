@@ -22,7 +22,7 @@ const data = [
   {
     icon: <FcHome style={{ width: "40px", height: "40px" }} />,
     para: "Login to View Addresses",
-    color: "#37857e",
+    color: "#1E90FF",
     bg: "white",
     weight: "700",
     border: "#f5f5f5",
@@ -109,10 +109,10 @@ const PincodeDrawer = () => {
           <DrawerCloseButton
             marginRight="436px"
             style={{
-              backgroundColor: "white",
+              backgroundColor: "#1E90FF",
               padding: "30px",
               border: "none",
-              color: "#767676",
+              color: "white",
               marginTop: "20px",
               borderRadius: "0px",
             }}
@@ -133,7 +133,7 @@ const PincodeDrawer = () => {
               />
               <InputRightElement height="50px" width="140px">
                 <Button
-                  bg="#37857e"
+                  bg="#1E90FF"
                   size="md"
                   height="50px"
                   width="140px"

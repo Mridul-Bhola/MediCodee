@@ -9,10 +9,10 @@ export const Company=[
         link:"Blog",
     },
     {
-        link:"Partner with PharmEasy",
+        link:"Partner with MediCodee",
     },
     {
-        link:"Sell at PharmEasy",
+        link:"Sell at MediCodee",
     }
 ]
 

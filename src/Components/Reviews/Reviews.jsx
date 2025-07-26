@@ -16,7 +16,7 @@ const Reviews = () => {
                         <Heading fontSize="16px" fontWeight="600">{el.name}</Heading>
                         <Heading fontSize="14px" fontWeight="400" marginTop="5px">{el.date}</Heading>
                         <Box width="344px" border="1px solid #e2fff2" borderRadius="7px" padding="24px"
-                        marginTop="20px" bg="#f1fef8" height="302px">
+                        marginTop="20px" bg="#90D5FF" height="302px">
                             <Heading color="#bfeddd">"</Heading>
                             <Heading fontSize="16px" color="#4f4d4a" fontWeight="500"
                             >{el.review}</Heading>
@@ -25,8 +25,6 @@ const Reviews = () => {
                 ))}
             </Stack>
         </div>
-        <Image width="100%" cursor="pointer" 
-        marginTop="50px" src="https://i.postimg.cc/HxTwb400/Screenshot-2022-07-22-at-1-14-36-AM.png"/>
     </div>
   )
 }

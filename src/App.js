@@ -12,7 +12,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Products from './Pages/Products/Products';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: '#f5faff', minHeight: '100vh' }}>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>

@@ -58,7 +58,7 @@ const Offers = () => {
               <Text fontSize={"14px"} fontWeight="500">
                 Order with prescription.
               </Text>
-              <Text fontSize={"14px"} fontWeight="700" color={"#10847E"}>
+              <Text fontSize={"14px"} fontWeight="700" color={"#1E90FF"}>
                 UPLOAD NOW
               </Text>
               <MdKeyboardArrowRight fontSize={"20px"} color={"#10847E"} />
@@ -81,7 +81,7 @@ const Offers = () => {
             <InputRightElement
               width={"100px"}
               children={
-                <Button borderRadius={"50px"} colorScheme={"teal"} width="88px">
+                <Button borderRadius={"50px"} backgroundColor="#1E90FF" color="white" width="88px">
                   Search
                 </Button>
               }

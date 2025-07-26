@@ -28,12 +28,18 @@ const Navbar = () => {
     >
       <div className={styles.navbar}>
         <div className={styles.imageDiv}>
-          <img
-            style={{ cursor: "pointer" }}
+          <div
             onClick={GoToHomePage}
-            src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0"
-            alt=""
-          />
+            style={{
+              cursor: "pointer",
+              fontSize: "24px",
+              fontWeight: "bold",
+              color: "#1E90FF",
+              padding: "10px 0"
+            }}
+          >
+          MediCodee
+          </div>
         </div>
         <div className={styles.LinkDiv}>
           <div style={{ display: "flex" }}>

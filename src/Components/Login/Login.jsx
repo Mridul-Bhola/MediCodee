@@ -124,7 +124,7 @@ const Login = () => {
               <DrawerCloseButton
                 marginRight="436px"
                 style={{
-                  backgroundColor: "#10847E",
+                  backgroundColor: "#1E90FF",
                   padding: "30px",
                   border: "none",
                   color: "white",
@@ -132,7 +132,9 @@ const Login = () => {
                   borderRadius: "0px",
                 }}
               />
-              <Image src="https://i.postimg.cc/x1dpN9GZ/Screenshot-2022-07-21-at-7-20-12-PM.png" />
+              <Text fontSize="28px" fontWeight="bold" color="#1E90FF" textAlign="center" mt="20px">
+                MediCodee
+              </Text>
               {show ? (
                 <div>
                   <DrawerHeader fontSize="16px" fontWeight="700">
@@ -153,7 +155,7 @@ const Login = () => {
                       />
                       <Button
                         height="50px"
-                        bg="#37857e"
+                        bg="#1E90FF"
                         color="white"
                         fontWeight="700"
                         fontSize="15px"
@@ -164,7 +166,7 @@ const Login = () => {
                       </Button>
                       <p style={{ fontSize: "13px" }}>
                         By clicking continue, you agree with our
-                        <span style={{ color: "#37857e", fontWeight: "600" }}>
+                        <span style={{ color: "#1E90FF", fontWeight: "600" }}>
                           {" "}
                           Privacy Policy
                         </span>
@@ -206,7 +208,7 @@ const Login = () => {
                       </HStack>
                       <Button
                         height="50px"
-                        bg="#37857e"
+                        bg="#1E90FF"
                         color="white"
                         fontWeight="700"
                         fontSize="15px"
@@ -217,7 +219,7 @@ const Login = () => {
                       </Button>
                       <p style={{ fontSize: "13px" }}>
                         By clicking continue, you agree with our
-                        <span style={{ color: "#37857e", fontWeight: "600" }}>
+                        <span style={{ color: "#1E90FF", fontWeight: "600" }}>
                           {" "}
                           Privacy Policy
                         </span>
